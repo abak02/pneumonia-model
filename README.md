@@ -12,7 +12,8 @@ The model was trained using a batch size of 32 and was trained for 10 epochs. Th
 
 # Usage
 To use the pneumonia detection model, you will need to have TensorFlow installed on your machine. You can then clone the repository and run the model.py script, passing in the path to the chest X-ray image that you want to train.
-python model.py
+
+$ python model.py
 The script will train the datasets and generate a h5 model.
 
 # Future Work
