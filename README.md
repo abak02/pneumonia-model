@@ -8,12 +8,13 @@ The Chest X-Ray Images (Pneumonia) dataset was obtained from Kaggle and contains
 The model uses a convolutional neural network (CNN) architecture, specifically the VGG16 model, which has been pre-trained on the ImageNet dataset. The VGG16 model was fine-tuned on the Chest X-Ray Images (Pneumonia) dataset to improve its performance on pneumonia detection.
 
 # Training and Evaluation
-The model was trained using a batch size of 32 and was trained for 10 epochs. The model achieved an accuracy of 93% on the test set, indicating that it is capable of accurately detecting pneumonia in chest X-ray images.
+The model was trained using a batch size of 25 and was trained for 10 epochs. The model achieved an accuracy of 62.5% on the test set.
 
 # Usage
 To use the pneumonia detection model, you will need to have TensorFlow installed on your machine. You can then clone the repository and run the model.py script, passing in the path to the chest X-ray image that you want to train.
 
-$ python model.py
+    python model.py
+
 The script will train the datasets and generate a h5 model.
 
 # Future Work
